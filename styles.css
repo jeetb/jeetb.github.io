@@ -163,3 +163,14 @@ a:hover {
         width: 95%;
     }
 }
+/* Experience Section Adjustments */
+.experience ul {
+    padding-left: 20px; /* Add padding to move the bullets inward */
+    margin-left: 0; /* Ensure no unnecessary extra margin */
+    text-align: left; /* Align the text left */
+}
+
+.experience li {
+    margin-bottom: 10px; /* Add spacing between each bullet point */
+    line-height: 1.6; /* Improve readability */
+}
