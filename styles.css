@@ -173,3 +173,7 @@ a:hover {
     margin-bottom: 8px; /* Reduce spacing between bullet points */
     line-height: 1.4; /* Slightly tighter line spacing */
 }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* Adjust based on your navbar height */
+}
