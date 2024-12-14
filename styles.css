@@ -162,3 +162,14 @@ a:hover {
 .footer p {
     margin: 0;
 }
+/* Experience Section Bullet Points */
+.experience ul {
+    padding-left: 20px; /* Adjust overall padding for the list */
+    margin-left: 0; /* Prevent additional margin */
+    list-style-position: inside; /* Align bullet closer to the text */
+}
+
+.experience li {
+    margin-bottom: 8px; /* Reduce spacing between bullet points */
+    line-height: 1.4; /* Slightly tighter line spacing */
+}
