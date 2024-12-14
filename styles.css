@@ -174,3 +174,24 @@ a:hover {
     margin-bottom: 10px; /* Add spacing between each bullet point */
     line-height: 1.6; /* Improve readability */
 }
+/* Navbar: Change the color of the name in the header */
+.navbar h1 {
+    margin: 0;
+    font-size: 2rem;
+    display: inline;
+    padding-left: 20px;
+    color: #FFD700; /* Gold color that contrasts well with the dark blue background */
+}
+
+/* Technical Skills Section: Adjust the list styling */
+.skills-list {
+    padding-left: 20px; /* Add padding to move the bullets inward */
+    margin-left: 0; /* Ensure no unnecessary extra margin */
+    list-style-type: disc; /* Keep standard bullet points */
+    text-align: left; /* Align the text to the left */
+}
+
+.skills-list li {
+    margin-bottom: 10px; /* Add space between bullet points */
+    line-height: 1.6; /* Improve readability */
+}
