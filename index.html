@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
+    <header class="navbar">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hi, I'm [Your Name]. I'm passionate about [your interests]!</p>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hello! I'm <strong>[Your Name]</strong>, a passionate data scientist and programmer with expertise in R, Python, and data visualization. I enjoy solving problems, building tools, and exploring innovative technologies.</p>
+            </div>
         </section>
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/username/project1">Project 1</a></li>
-                <li><a href="https://github.com/username/project2">Project 2</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>Contact me at: [your email]</p>
-    </footer>
-</body>
-</html>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Project 1</h3>
+                        <p>A brief description of your project. Highlight its purpose and what tools/tech

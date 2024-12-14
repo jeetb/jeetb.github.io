@@ -1,19 +1,125 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
+    color: #333;
+    background: #f4f4f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar h1 {
+    margin: 0;
+    display: inline;
+    font-size: 1.8rem;
+}
+
+.navbar nav ul {
+    list-style: none;
+    float: right;
     margin: 0;
     padding: 0;
 }
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
-footer {
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Section Styles */
+.section {
+    padding: 3rem 0;
+    background: #fff;
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Grid Layout for Projects */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card h3 {
+    margin: 0;
+    color: #444;
+}
+
+.card p {
+    color: #666;
+    margin: 1rem 0;
+}
+
+.card a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.card a:hover {
+    color: #0056b3;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+.footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
 }
