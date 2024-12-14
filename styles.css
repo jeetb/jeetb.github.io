@@ -64,6 +64,11 @@ a:hover {
     font-size: 1rem;
 }
 
+.navbar a {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
 /* Section Styles */
 .section {
     padding: 60px 20px;
