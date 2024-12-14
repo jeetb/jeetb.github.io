@@ -12,7 +12,7 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px; /* Padding inside the container */
 }
 
 /* Navbar */
@@ -27,6 +27,7 @@ body {
     margin: 0;
     display: inline;
     font-size: 2rem;
+    padding-left: 20px; /* Add space to the left */
 }
 
 .navbar nav ul {
@@ -71,9 +72,11 @@ body {
 .section p {
     font-size: 1.1rem;
     color: #555;
-    text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    text-align: center;
+    padding-left: 20px; /* Add padding to text */
+    padding-right: 20px; /* Add padding to text */
     line-height: 1.6;
 }
 
@@ -91,4 +94,48 @@ body {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-al
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+.card p {
+    color: #666;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.card a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.card a:hover {
+    color: #0056b3;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 1.4;
+}
